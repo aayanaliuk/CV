@@ -1,0 +1,225 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+% Custom
+\usepackage{amsmath}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Muhammad Aayan Ali} \\ \vspace{1pt}
+    \small +44 7592 552025 $|$ 
+    \href{mailto:aayan.ali.uk@gmail.com}{\underline{aayan.ali.uk@gmail.com}} $|$ 
+    \href{https://www.linkedin.com/in/aayanaliuk/}{\underline{linkedin.com/in/aayanaliuk/}} $|$
+    \href{https://github.com/AayanAli2007}{\underline{github.com/AayanAli2007}}
+\end{center}
+
+% %-----------About Me-----------
+% \section{About Me}
+%  \begin{itemize}[leftmargin=0.15in, label={}]
+%     \small{\item{
+    %  Holder of the \textbf{Warwick Undergraduate Global Excellence Scholarship} \\
+    %  \textbf{HackTheBox}: \href{https://profile.hackthebox.com/profile/019d21a1-c942-706f-b321-aeebfdd6f92d}{@aayanaliuk}
+    %  \textbf{TryHackME}: \href{https://tryhackme.com/p/aayanaliuk}{tryhackme.com/p/aayanaliuk} \\
+%     }}
+%  \end{itemize}
+
+
+%-----------EDUCATION-----------
+\section{Education}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {University of Warwick}{Coventry, UK}
+      {BSc Computer Science ($1^{\text{rst}}$ year 73\% // 1:1 grade)}{Oct 2025 -- Jul 2028}
+    \resumeSubheading
+      {Jumeirah College}{Dubai, AE}
+      {Computer Science (A*), Mathematics (A), Physics (A)}{Aug 2023 -- Aug 2025}
+  \resumeSubHeadingListEnd
+
+
+%-----------PROJECTS-----------
+\section{Projects}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{ML: Exam Past Paper Analysis Generator}}{\emph{Python, TensorFlow, Sentence-BERT, RegEx}}
+          \resumeItemListStart
+            \resumeItem{Trained an ML model to analyze past exam papers and generate topic-based papers.}
+            \resumeItem{Used \textbf{TensoreFlow} lib to differenate between types of pages, then used \textbf{RegEx} to section data for processing}
+            \resumeItem{Implemented a hierarchical data structure to \textbf{manage context} between different subparts of questions}
+            \resumeItem{Database linked to Google Sheets and Bag-Of-Words model was used for topic detection}
+            \resumeItem{Made a workshop on the project teaching it to 50 students in 4 workshops across a month during Sixth Form}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Full stack Devolpoment: Sixth Form Sports Day}}{\emph{Python, Google Sheets, Google Appsheet}}
+          \resumeItemListStart
+            \resumeItem{Led team of 7 to develop my school's first \textbf{interactive data entry application} for the school’s sports day.}
+            \resumeItem{Managed testing, user training, bug fixes, and feature improvements based on user feedback.}
+            \resumeItem{Implemented using Google Suite, was \textbf{modular} allowing for variable amounts of students, classes and year groups.}
+            \resumeItem{Data predominately processed using formulea inside table, allowing for \textbf{live scoreboard} and \textbf{point tracking}}
+            \resumeItem{Implemented methords to \textbf{promote candinates} for record breakers, allowing for thoose indivuals to be \textbf{awared medals autmoacially} after events.}
+          \resumeItemListEnd
+
+
+      \resumeProjectHeading
+          {\textbf{Automated Blog Generation \& B2B Lead Generation}}{\emph{Python, WIX, LinkedIn, HTML parsing}}
+          \resumeItemListStart
+            \resumeItem{Important part of this project is its \textbf{ethicality}: licensing, AI-gen content, data collection and automated outreach}
+            \resumeItem{For Blogs Generation, Public \textbf{domain/CC0} articles where used, this would then be rewriten using LLMs. 
+            The rewriten article would be reformated and uploaded to \textbf{WIX}}     
+            \resumeItem{After being pulled, article would then be \textbf{hashed} (ensuring no repeats) and, SEO and GEO would be generated for the articled and would be uploaded along side generated images and text.}
+            \resumeItem{For Lead Generation, in pretesting a metasearch engine (\textbf{SearXNG}) and was later privoted to offical APIs}
+            \resumeItem{Each Lead would be judged (by a decition model) on a selection of atributes from relevence, size, location ext.}
+            \resumeItem{Data collected using mutliple sources (including \text{LinkedIn}) and only \textbf{minimal amounts public-facing data} was recorded (to be \textit{deleated} after the selection).}
+          \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Reactive Security Awareness Intern}{Jul 2024 -- Aug 2024}
+      {Phishrod Labs}{Lahore, Pakistan}
+      \resumeItemListStart
+        \resumeItem{Assisted in cybersecurity research focusing on mitigating \textbf{human error-related breaches}.}
+        \resumeItem{Pitched security awareness programs to educational institutions.}
+        \resumeItem{Gained practical experience in \textbf{cybersecurity protocols}and practices.}
+      \resumeItemListEnd
+      
+    \resumeSubheading
+      {Software Engineering Intern}{Jul 2024 -- Aug 2024}
+      {The Total Finance Resolver}{Dubai, UAE}
+      \resumeItemListStart
+        \resumeItem{Developed and implemented a WIX-integrated blog posting system and B2B Lead Generator}
+        \resumeItem{Reviewed outreach regulations including \textbf{PECR} and \textbf{GDPR} while learning the fundamentals of financial trading and markets.}
+    \resumeItemListEnd
+    
+  \resumeSubHeadingListEnd
+
+
+%-----------PROGRAMMING SKILLS-----------
+
+\section{Technical Skills \& Extras}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     A Warwick \textbf{UnderGrad Global Excellence Scholar} (only 97 student in 2025) and working on \textbf{CompTIA Security+} \\
+     \textbf{Languages}{: Java, Python, C, Haskell} \hfill
+     \textbf{Certs}{: \href{https://github.com/AayanAli2007/CyberSecurity_Path/blob/main/Certifications/CompTIA_ITF.md}{\underline{CompTIA ITF+}}} \hfill
+     \textbf{Developer Tools}{: Git, Wireshark, Burp Suite} \\
+     \textbf{HackTheBox}: \href{https://profile.hackthebox.com/profile/019d21a1-c942-706f-b321-aeebfdd6f92d}{\underline{@aayanaliuk}} \hfill
+     \textbf{TryHackME}: \href{https://tryhackme.com/p/aayanaliuk}{\underline{tryhackme.com/p/aayanaliuk}}
+    }}
+ \end{itemize}
+
+%-------------------------------------------
+\end{document}
