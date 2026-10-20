@@ -1,10 +1,10 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.10.12)  19 OCT 2026 14:53
+This is pdfTeX, Version 3.141592653-2.6-1.40.29 (TeX Live 2026) (preloaded format=pdflatex 2026.10.12)  20 OCT 2026 15:34
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
  %&-line parsing enabled.
-**c:/Users/aayan/GitProjects/CV/main.tex
-(c:/Users/aayan/GitProjects/CV/main.tex
+**c:/Users/aayan/GitProjects/CV/cv.tex
+(c:/Users/aayan/GitProjects/CV/cv.tex
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-09-09>
 (c:/texlive/2026/texmf-dist/tex/latex/base/article.cls
@@ -300,8 +300,8 @@ LaTeX Info: Redefining \] on input line 2966.
 ) (c:/texlive/2026/texmf-dist/tex/latex/l3kernel/l3backend-pdftex.def
 File: l3backend-pdftex.def 2026-09-09 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count313
-) (./main.aux)
-\openout1 = `main.aux'.
+) (./cv.aux)
+\openout1 = `cv.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 109.
 LaTeX Font Info:    ... okay on input line 109.
@@ -336,9 +336,9 @@ LaTeX Font Info:    ... okay on input line 109.
 \everyMPtoPDFconversion=\toks32
 )
 Package hyperref Info: Link coloring OFF on input line 109.
- (./main.out) (./main.out)
+ (./cv.out) (./cv.out)
 \@outlinefile=\write3
-\openout3 = `main.out'.
+\openout3 = `cv.out'.
 
 Package babel Info: Main language set to 'english'.
 
@@ -357,7 +357,7 @@ Package fancyhdr Warning: \footskip is too small (0.0pt):
 
 [1
 
-{c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./main.aux)
+{c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./cv.aux)
  ***********
 LaTeX2e <2026-06-01>
 L3 programming layer <2026-09-09>
@@ -366,19 +366,19 @@ L3 programming layer <2026-09-09>
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package rerunfilecheck Info: File `main.out' has not changed.
+Package rerunfilecheck Info: File `cv.out' has not changed.
 (rerunfilecheck)             Checksum: 78FD6257AB28077D3BB9C8FFEA5106D2;444.
  ) 
 Here is how much of TeX's memory you used:
  11803 strings out of 467050
- 187584 string characters out of 5410549
- 654405 words of memory out of 5000000
+ 187546 string characters out of 5410549
+ 654395 words of memory out of 5000000
  41050 multiletter control sequences out of 15000+600000
  635907 words of font info for 69 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 74i,11n,79p,303b,469s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 74i,11n,79p,301b,469s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <c:/Users/aayan/.texlive2026/texmf-var/fonts/pk/ljfour/public/cm/cmsy6.600pk> <c:/Users/aayan/.texlive2026/texmf-var/fonts/pk/ljfour/public/cm/cmti10.657pk> <c:/texlive/2026/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmbx10.pk> <c:/Users/aayan/.texlive2026/texmf-var/fonts/pk/ljfour/public/cm/cmti7.600pk> <c:/texlive/2026/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmti10.pk> <c:/Users/aayan/.texlive2026/texmf-var/fonts/pk/ljfour/public/cm/cmr10.657pk> <c:/Users/aayan/.texlive2026/texmf-var/fonts/pk/ljfour/public/cm/cmbx10.657pk> <c:/Users/aayan/.texlive2026/texmf-var/fonts/pk/ljfour/public/cm/cmcsc10.720pk> <c:/texlive/2026/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmsy10.pk> <c:/texlive/2026/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr10.pk> <c:/Users/aayan/.texlive2026/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.1244pk>
-Output written on main.pdf (1 page, 93513 bytes).
+Output written on cv.pdf (1 page, 93493 bytes).
 PDF statistics:
  371 PDF objects out of 1000 (max. 8388607)
  76 compressed objects within 1 object stream

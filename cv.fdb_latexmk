@@ -1,5 +1,5 @@
 # Fdb version 4
-["pdflatex"] 1792417996.10643 "c:/Users/aayan/GitProjects/CV/main.tex" "main.pdf" "main" 1792417997.86625 0
+["pdflatex"] 1792506890.59925 "c:/Users/aayan/GitProjects/CV/cv.tex" "cv.pdf" "cv" 1792506892.3869 0
   "c:/Users/aayan/.texlive2026/texmf-var/fonts/pk/ljfour/public/cm/cmbx10.657pk" 1792350488 12764 30dc204af4c6b977fbb8526815717ebf ""
   "c:/Users/aayan/.texlive2026/texmf-var/fonts/pk/ljfour/public/cm/cmbx12.1244pk" 1792350073 33512 5766d6746b5fc8fdd69b0fcc22800188 ""
   "c:/Users/aayan/.texlive2026/texmf-var/fonts/pk/ljfour/public/cm/cmcsc10.720pk" 1792350491 13912 4e7fb7a0aab376d7987f5cc6dcd59756 ""
@@ -9,7 +9,7 @@
   "c:/Users/aayan/.texlive2026/texmf-var/fonts/pk/ljfour/public/cm/cmti7.600pk" 1792350484 10220 20cdbb396e0bf231038f3ec23caba204 ""
   "c:/Users/aayan/.texlive2026/texmf-var/fonts/tfm/public/sauter/cmex7.tfm" 1792350059 940 f9e66c0105a30e64e3a0f5c4f79efb8d ""
   "c:/Users/aayan/.texlive2026/texmf-var/fonts/tfm/public/sauter/cmex8.tfm" 1792350481 924 5a9e526167204627ff94b28d1479e31e ""
-  "c:/Users/aayan/GitProjects/CV/main.tex" 1792417994 9553 26edbd5e5cf6d59aba3770ce678c9f0c ""
+  "c:/Users/aayan/GitProjects/CV/cv.tex" 1792506812 9549 7729f03be456888a15e6c34f294d532f ""
   "c:/texlive/2026/texmf-dist/fonts/map/fontname/texfonts.map" 1791747586 3524 cb3e574dea2d1052e39280babc910dc8 ""
   "c:/texlive/2026/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmbx10.pk" 1791746256 11496 169cba381890bf24b221c3d29823c101 ""
   "c:/texlive/2026/texmf-dist/fonts/pk/ljfour/public/cm/dpi600/cmr10.pk" 1791746256 10892 c562fda04f99936b3380df8b485bf110 ""
@@ -94,12 +94,12 @@
   "c:/texlive/2026/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1791767415 2668772 e2d755f522a586ee0f653379280f7652 ""
   "c:/texlive/2026/texmf-var/web2c/pdftex/pdflatex.fmt" 1791767631 3668399 8149f95b32353ecfbc2bb59102d84f81 ""
   "c:/texlive/2026/texmf.cnf" 1791767380 713 e69b156964470283e0530f5060668171 ""
-  "main.aux" 1792417997 721 5ee4804978de8cb6761f334a9a29a0bc "pdflatex"
-  "main.out" 1792417997 444 78fd6257ab28077d3bb9c8ffea5106d2 "pdflatex"
-  "main.tex" 1792417994 9553 26edbd5e5cf6d59aba3770ce678c9f0c ""
+  "cv.aux" 1792506892 721 5ee4804978de8cb6761f334a9a29a0bc "pdflatex"
+  "cv.out" 1792506892 444 78fd6257ab28077d3bb9c8ffea5106d2 "pdflatex"
+  "cv.tex" 1792506812 9549 7729f03be456888a15e6c34f294d532f ""
   (generated)
-  "main.aux"
-  "main.log"
-  "main.out"
-  "main.pdf"
+  "cv.aux"
+  "cv.log"
+  "cv.out"
+  "cv.pdf"
   (rewritten before read)
